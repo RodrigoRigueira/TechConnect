@@ -2,8 +2,8 @@
   --bg: #0b1020;
   --fg: #e9ecf1;
   --muted: #b7c0d4;
-  --accent: #578aeb;   /* Azul principal */
-  --accent-2: #6763d3; /* Roxo principal */
+  --accent: #578aeb;   
+  --accent-2: #6763d3; 
   --card: rgba(255, 255, 255, 0.06);
   --shadow: rgba(0, 0, 0, 0.25);
   --radius: 16px;
@@ -101,7 +101,6 @@ body {
   opacity: 0.7;
 }
 
-/* Botão */
 .btn {
   display: inline-block;
   padding: 1rem 1.5rem;
@@ -121,7 +120,6 @@ body {
   outline: none;
 }
 
-/* Conteúdo */
 .content {
   padding: 3.5rem 0 6rem;
   display: grid;
@@ -155,7 +153,6 @@ body {
   line-height: 1.7;
 }
 
-/* Formulário */
 .form-inscricao {
   display: flex;
   flex-wrap: wrap;
@@ -181,7 +178,6 @@ body {
   cursor: pointer;
 }
 
-/* Footer */
 .footer {
   border-top: 1px solid rgba(255,255,255,0.08);
   padding: 2.2rem 0;
@@ -208,14 +204,12 @@ body {
   text-decoration: underline;
 }
 
-/* Responsividade extra */
 @media (max-width: 600px) {
   .countdown { flex-wrap: wrap; padding: 1rem; }
   .countdown .time { min-width: 58px; }
   .hero h1 { font-size: 2rem; }
 }
 
-/* Animações */
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-4px); }
