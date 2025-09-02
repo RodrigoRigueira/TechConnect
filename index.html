@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TechConnect 2025</title>
+
+  <!-- SEO -->
+  <meta name="description" content="TechConnect 2025: Conectando pessoas, ideias e tecnologia. Participe do maior evento de inovação do ano." />
+  <meta name="keywords" content="TechConnect, tecnologia, inovação, conferência, 2025, eventos" />
+  <meta name="author" content="TechConnect" />
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:title" content="TechConnect 2025" />
+  <meta property="og:description" content="Conectando pessoas, ideias e tecnologia. 01 de Dezembro de 2025." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/techconnect-banner.jpg" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TechConnect 2025" />
+  <meta name="twitter:description" content="Conectando pessoas, ideias e tecnologia. 01 de Dezembro de 2025." />
+  <meta name="twitter:image" content="assets/techconnect-banner.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="hero" role="banner">
+    <div class="container">
+      <h1 id="site-title">TechConnect 2025</h1>
+      <p class="subtitle">Conectando pessoas, ideias e tecnologia</p>
+
+      <!-- Contador -->
+      <div id="countdown" class="countdown" aria-live="polite" aria-describedby="countdown-label">
+        <span id="countdown-label" class="sr-only">Contagem regressiva para o início do evento</span>
+        <div class="time"><span id="days">--</span><small>dias</small></div>
+        <div class="sep" aria-hidden="true">:</div>
+        <div class="time"><span id="hours">--</span><small>horas</small></div>
+        <div class="sep" aria-hidden="true">:</div>
+        <div class="time"><span id="minutes">--</span><small>min</small></div>
+        <div class="sep" aria-hidden="true">:</div>
+        <div class="time"><span id="seconds">--</span><small>seg</small></div>
+      </div>
+
+      <!-- CTA -->
+      <a class="btn" href="#inscricao" id="signup">Quero me inscrever</a>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main role="main">
+    <div class="content container">
+          <section id="sobre" aria-labelledby="sobre-title">
+      <h2 id="sobre-title">Sobre o evento</h2>
+      <p>Um encontro para explorar tendências, ferramentas e cases que estão moldando o futuro da tecnologia.</p>
+    </section>
+
+    <section id="programa" aria-labelledby="programa-title">
+      <h2 id="programa-title">Programa</h2>
+      <p>Confira a programação completa em breve.</p>
+    </section>
+
+    <section id="palestrantes" aria-labelledby="palestrantes-title">
+      <h2 id="palestrantes-title">Palestrantes</h2>
+      <p>Grandes nomes do mercado de tecnologia estarão presentes.</p>
+    </section>
+
+    <section id="inscricao" aria-labelledby="inscricao-title">
+      <h2 id="inscricao-title">Inscreva-se</h2>
+      <p>As inscrições estarão disponíveis em breve. Fique de olho!</p>
+
+      <form action="#" method="post" class="form-inscricao" aria-label="Formulário de inscrição">
+        <label for="email" class="sr-only">Digite seu e-mail</label>
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          placeholder="seu@email.com" 
+          required 
+          aria-required="true"
+        />
+        <button type="submit" class="btn">Cadastrar</button>
+      </form>
+    </section>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <nav class="links" aria-label="Rodapé">
+        <a href="#programa">Programa</a>
+        <a href="#palestrantes">Palestrantes</a>
+        <a href="#inscricao">Inscrição</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <small>&copy; 2025 TechConnect. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    window.TECHCONNECT_EVENT_DATE = "2025-12-01T09:00:00-03:00";
+  </script>
+  <script src="scripts/countdown.js" defer></script>
+</body>
+</html>
